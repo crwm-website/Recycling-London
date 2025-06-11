@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="ji4h4k--atW-4ktCCI5pJnbpH25YJg0MzUvQec-7xWE" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact CRWM Environmental (London) — get in touch with our environmental compliance and waste management team in the UK." />
-  <meta name="keywords" content="CRWM, contact CRWM, recycling london, waste testing, environmental compliance, UK waste services, WM3, site audits, permits" />
+  <meta name="description" content="Pay CRWM Environmental (London) for waste management and environmental compliance services using secure PayPal checkout." />
+  <meta name="keywords" content="CRWM, pay CRWM, PayPal payment, recycling london, environmental services, secure checkout" />
   <meta name="author" content="CRWM Environmental (London)" />
-  <title>Contact - CRWM Environmental (London)</title>
+  <title>Pay CRWM Environmental (London)</title>
   <link rel="stylesheet" href="styles.css" />
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAXubhDXy80p1qgPnDL1NdSaj6tVc8sG21XmU6Obde9a66u8S3o0jJQNFMFZ_9i45KM9g1-dq4GX5D1jo&components=hosted-buttons&disable-funding=venmo&currency=GBP">
+  </script>
 </head>
 <body>
   <header>
@@ -25,12 +27,23 @@
   </header>
   <main>
     <section class="hero">
-      <h1>Shop</h1>
-      <p>Purchase reports, services, and testing packages directly from CRWM Environmental.</p>
+      <h1>Secure Payment Portal</h1>
+      <p>You can pay for CRWM Environmental (London) services below using our secure PayPal checkout.</p>
+    </section>
+
+    <section class="payment" style="text-align: center;">
+      <h2>Pay for Services</h2>
+      <p>Click the button below to complete your payment. You can enter the amount and confirm details on the PayPal page.</p>
+      <div id="paypal-container-VRD6NRAA8BX3E" style="margin-top: 30px;"></div>
+      <script>
+        paypal.HostedButtons({
+          hostedButtonId: "VRD6NRAA8BX3E",
+        }).render("#paypal-container-VRD6NRAA8BX3E")
+      </script>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 CRWM Environmental. All rights reserved.</p>
+    <p>&copy; 2025 CRWM Environmental (London). All rights reserved.</p>
   </footer>
 </body>
 </html>
