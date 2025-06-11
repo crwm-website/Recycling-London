@@ -1,14 +1,21 @@
-/* CRWM Environmental Website Styles */
+/* CRWM Environmental Website Styles (Gold Theme) */
+
+:root {
+  --gold-light: #f9e79f;
+  --gold-medium: #f1c40f;
+  --gold-dark: #b7950b;
+  --text-dark: #2e2e2e;
+}
 
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f5;
-  color: #222;
+  background-color: #fffef9;
+  color: var(--text-dark);
 }
 
 header {
-  background-color: #234f1e;
+  background-color: var(--gold-dark);
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -29,7 +36,7 @@ nav ul {
 }
 
 nav a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -39,7 +46,7 @@ nav a:hover {
 }
 
 .hero {
-  background-color: #8bc34a;
+  background-color: var(--gold-medium);
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -63,7 +70,7 @@ nav a:hover {
 
 .services {
   padding: 2rem;
-  background-color: #e1f5e5;
+  background-color: var(--gold-light);
 }
 
 .services ul {
@@ -73,12 +80,13 @@ nav a:hover {
 
 .payment {
   padding: 2rem;
-  background-color: #c8e6c9;
+  background-color: var(--gold-medium);
   text-align: center;
+  color: white;
 }
 
 footer {
-  background-color: #234f1e;
+  background-color: var(--gold-dark);
   color: white;
   text-align: center;
   padding: 1rem;
