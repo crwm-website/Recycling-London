@@ -1,106 +1,87 @@
-/* CRWM Environmental Website Styles (Gold & Grey Theme) */
-
-:root {
-  --gold-light: #e6ccb2;
-  --gold-medium: #c6a664;
-  --gold-dark: #8b6f29;
-  --background: #f0f0f0;
-  --text: #2b2b2b;
-}
-
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--background);
-  color: var(--text);
+  padding: 0;
+  background-color: #f4f7f4;
+  color: #333;
 }
 
 header {
-  background-color: var(--gold-dark);
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  background-color: #305e30;
+  padding: 10px 0;
+  text-align: center;
 }
 
 .logo {
-  height: 200px;
+  height: 100px;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: 0;
+  list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #3d7e3d;
+  margin: 0;
 }
 
-nav a {
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
 .hero {
-  background-color: var(--gold-medium);
-  color: white;
-  padding: 4rem 2rem;
+  background-color: #e0f2e0;
   text-align: center;
+  padding: 40px 20px;
 }
 
-.gallery {
-  padding: 2rem;
-  background-color: white;
+.gallery, .services, .recycling, .payment {
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.gallery h2, .services h2, .recycling h2, .payment h2 {
+  text-align: center;
+  color: #305e30;
 }
 
 .image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .image-grid img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
 }
 
-.services {
-  padding: 2rem;
-  background-color: var(--gold-light);
+.recycling {
+  background-color: #d9f0d9;
+  border-top: 2px solid #305e30;
+  border-bottom: 2px solid #305e30;
 }
 
-.services ul {
-  columns: 2;
-  column-gap: 2rem;
-}
-
-.payment {
-  padding: 2rem;
-  background-color: var(--gold-medium);
-  text-align: center;
-  color: white;
+.recycling ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 footer {
-  background-color: var(--gold-dark);
+  background-color: #305e30;
   color: white;
   text-align: center;
-  padding: 1rem;
-}
-
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .services ul {
-    columns: 1;
-  }
+  padding: 20px 0;
+  margin-top: 40px;
 }
