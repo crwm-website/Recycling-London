@@ -42,13 +42,13 @@ nav ul li a {
   padding: 40px 20px;
 }
 
-.gallery, .services, .recycling, .payment {
+.gallery, .services, .payment {
   padding: 40px 20px;
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.gallery h2, .services h2, .recycling h2, .payment h2 {
+.gallery h2, .services h2, .payment h2 {
   text-align: center;
   color: #305e30;
 }
@@ -65,17 +65,6 @@ nav ul li a {
   width: 300px;
   height: auto;
   border-radius: 8px;
-}
-
-.recycling {
-  background-color: #d9f0d9;
-  border-top: 2px solid #305e30;
-  border-bottom: 2px solid #305e30;
-}
-
-.recycling ul {
-  list-style-type: disc;
-  padding-left: 20px;
 }
 
 footer {
