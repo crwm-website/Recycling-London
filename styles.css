@@ -7,13 +7,13 @@ body {
 }
 
 header {
-  background-color: #1c1c1c;
+  background-color: #a8902e;
   padding: 10px 0;
   text-align: center;
 }
 
 .logo {
-  height: 200px;
+  height: 100px;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #2a2a2a;
+  background-color: #b99e38;
   margin: 0;
 }
 
@@ -31,17 +31,17 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #f0c75e;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: #f4e3a0;
 }
 
 .hero {
-  background-color: #f5ecd1;
+  background-color: #f3e4b5;
   text-align: center;
   padding: 40px 20px;
 }
@@ -54,7 +54,7 @@ nav ul li a:hover {
 
 .gallery h2, .services h2, .recycling h2, .payment h2 {
   text-align: center;
-  color: #bfa74a;
+  color: #b2912f;
 }
 
 .image-grid {
@@ -72,7 +72,7 @@ nav ul li a:hover {
 }
 
 .recycling {
-  background-color: #fff8e1;
+  background-color: #fdf0c3;
   border-top: 2px solid #bfa74a;
   border-bottom: 2px solid #bfa74a;
 }
@@ -83,8 +83,8 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #1c1c1c;
-  color: #f0c75e;
+  background-color: #a8902e;
+  color: white;
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
