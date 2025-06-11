@@ -1,3 +1,5 @@
+/* CRWM Environmental Website Styles (Gold & Grey Theme) */
+
 :root {
   --gold-light: #e6ccb2;
   --gold-medium: #c6a664;
@@ -23,7 +25,7 @@ header {
 }
 
 .logo {
-  height: 60px;
+  height: 120px;
 }
 
 nav ul {
