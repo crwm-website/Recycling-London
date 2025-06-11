@@ -2,18 +2,18 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f7f4;
-  color: #333;
+  background-color: #fffdf5;
+  color: #222;
 }
 
 header {
-  background-color: #666666;
+  background-color: #1c1c1c;
   padding: 10px 0;
   text-align: center;
 }
 
 .logo {
-  height: 200px;
+  height: 100px;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #777777;
+  background-color: #2a2a2a;
   margin: 0;
 }
 
@@ -31,26 +31,30 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #f0c75e;
   text-decoration: none;
   font-weight: bold;
 }
 
+nav ul li a:hover {
+  color: #fff;
+}
+
 .hero {
-  background-color: #e0f2e0;
+  background-color: #f5ecd1;
   text-align: center;
   padding: 40px 20px;
 }
 
-.gallery, .services, .payment {
+.gallery, .services, .recycling, .payment {
   padding: 40px 20px;
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.gallery h2, .services h2, .payment h2 {
+.gallery h2, .services h2, .recycling h2, .payment h2 {
   text-align: center;
-  color: #305e30;
+  color: #bfa74a;
 }
 
 .image-grid {
@@ -67,9 +71,20 @@ nav ul li a {
   border-radius: 8px;
 }
 
+.recycling {
+  background-color: #fff8e1;
+  border-top: 2px solid #bfa74a;
+  border-bottom: 2px solid #bfa74a;
+}
+
+.recycling ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 footer {
-  background-color: #305e30;
-  color: white;
+  background-color: #1c1c1c;
+  color: #f0c75e;
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
