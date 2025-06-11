@@ -1,21 +1,20 @@
-/* CRWM Environmental Website Styles (Green Theme) */
-
 :root {
-  --green-light: #e1f5e5;
-  --green-medium: #8bc34a;
-  --green-dark: #234f1e;
-  --text-dark: #2e2e2e;
+  --gold-light: #e6ccb2;
+  --gold-medium: #c6a664;
+  --gold-dark: #8b6f29;
+  --background: #f0f0f0;
+  --text: #2b2b2b;
 }
 
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f5;
-  color: var(--text-dark);
+  background-color: var(--background);
+  color: var(--text);
 }
 
 header {
-  background-color: var(--green-dark);
+  background-color: var(--gold-dark);
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -46,7 +45,7 @@ nav a:hover {
 }
 
 .hero {
-  background-color: var(--green-medium);
+  background-color: var(--gold-medium);
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -54,6 +53,7 @@ nav a:hover {
 
 .gallery {
   padding: 2rem;
+  background-color: white;
 }
 
 .image-grid {
@@ -70,7 +70,7 @@ nav a:hover {
 
 .services {
   padding: 2rem;
-  background-color: var(--green-light);
+  background-color: var(--gold-light);
 }
 
 .services ul {
@@ -80,12 +80,13 @@ nav a:hover {
 
 .payment {
   padding: 2rem;
-  background-color: #c8e6c9;
+  background-color: var(--gold-medium);
   text-align: center;
+  color: white;
 }
 
 footer {
-  background-color: var(--green-dark);
+  background-color: var(--gold-dark);
   color: white;
   text-align: center;
   padding: 1rem;
